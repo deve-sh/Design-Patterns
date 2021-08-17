@@ -6,14 +6,16 @@
  */
 
 class TrafficLight {
-	lightColor: string = "red";
+	private lightColor;
 
 	constructor() {
+		this.lightColor = "red";
 		// Let's initialize the traffic light, this is the moment it is put on the road and configured to show a sequence of colours.
-		setInterval(this.showSignal, 1000);
+		setInterval(() => this.showSignal(), 1000);	// The added arrow function will remove state closures, or the value of this.lightColor being undefined inside showSignal.
 	}
 
 	showSignal(): void {
+		console.log("Invoked", this.lightColor);
 		// State machine, shows the signal based on the current light active.
 		switch (this.lightColor) {
 			case "red":
