@@ -15,7 +15,6 @@ class TrafficLight {
 	}
 
 	showSignal(): void {
-		console.log("Invoked", this.lightColor);
 		// State machine, shows the signal based on the current light active.
 		switch (this.lightColor) {
 			case "red":
