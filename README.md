@@ -10,6 +10,7 @@
 - [Adapter Pattern](Structural/AdapterPattern.ts)
 - [Facade Pattern](Structural/FacadePattern.ts)
 - [Proxy Pattern](Structural/ProxyPattern.ts)
+- [Decorator Pattern](Structural/DecoratorPattern.ts)
 
 ### Behavioral
 
