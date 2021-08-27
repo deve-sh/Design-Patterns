@@ -3,6 +3,10 @@
  *
  * This makes the creation of similar objects much simpler.
  * Ex: There can be multiple types of employees: Full-Time, Part-Time and Consultants, it's better to create a factory to create an employee object of the different types.
+ * 
+ * References:
+ * https://www.dofactory.com/javascript/design-patterns/factory-method
+ * https://refactoring.guru/design-patterns/factory-method
  */
 
 class Bread {
