@@ -4,6 +4,9 @@
 
 - [SingleTon Pattern](Creational/SingletonPattern.ts)
 - [Builder Pattern](Creational/BuilderPattern.ts)
+- [Factory Pattern](Creational/FactoryPattern.ts)
+- [Prototype Pattern](Creational/PrototypePattern.ts)
+- [Abstract Factory Pattern](Creational/AbstractFactoryPattern.ts)
 
 ### Structural
 
